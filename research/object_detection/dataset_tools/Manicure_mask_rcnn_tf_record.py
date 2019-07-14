@@ -13,18 +13,6 @@
 # limitations under the License.
 # ==============================================================================
 
-r"""Convert the Oxford pet dataset to TFRecord for object_detection.
-
-See: O. M. Parkhi, A. Vedaldi, A. Zisserman, C. V. Jawahar
-     Cats and Dogs
-     IEEE Conference on Computer Vision and Pattern Recognition, 2012
-     http://www.robots.ox.ac.uk/~vgg/data/pets/
-
-Example usage:
-    python object_detection/dataset_tools/create_pet_tf_record.py \
-        --data_dir=/home/user/pet \
-        --output_dir=/home/user/pet/output
-"""
 
 import hashlib
 import io
